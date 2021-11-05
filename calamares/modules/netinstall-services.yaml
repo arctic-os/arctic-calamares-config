@@ -1,9 +1,8 @@
--name: "Service Packages"
-  description: "prebuild packages for System Services"
+- name: "System Services Meta Packages"
+  description: "Prebuild packages for System Services"
   hidden: false
-  selected: true
+  selected: false
   critical: false
-  expanded: true
   packages:
     - alsa-support
     - bluetooth-support
